@@ -14,6 +14,12 @@ var readFileThunk = function(src) {
     })
 }
 
+app.use(async function(ctx, next) {
+    console.log("1")
+    await next()
+    console.log("2")
+})
+
 app.use(async function(ctx) {
     ctx.type = 'text/html'
     let fsResponse = fs.readFileSync(path.resolve(__dirname,'../client/index.html'), { 'encoding': 'utf8' }, function(err, data) {
