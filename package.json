@@ -25,6 +25,7 @@
   "homepage": "https://github.com/CollegeFellow/react-movies#readme",
   "dependencies": {
     "koa": "^2.3.0",
+    "koa-router": "^7.2.1",
     "path": "^0.12.7"
   },
   "devDependencies": {
