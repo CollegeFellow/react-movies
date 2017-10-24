@@ -24,9 +24,13 @@
   },
   "homepage": "https://github.com/CollegeFellow/react-movies#readme",
   "dependencies": {
+    "babel-preset-react": "^6.24.1",
     "koa": "^2.3.0",
+    "koa-react-view": "^3.0.0",
     "koa-router": "^7.2.1",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
